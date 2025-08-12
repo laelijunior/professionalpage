@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  background: #f8f9fa;
+  padding: 3rem 2rem;
+}
+
+.profile-photo {
+  width: 140px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0.2rem 0;
+}
+
+h2 {
+  font-weight: normal;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.bio {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.cta {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #0078d4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta:hover {
+  background: #005a9e;
+}
+
+.contact {
+  background: #ffffff;
+  border-top: 1px solid #eee;
+  padding: 2rem 0;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #0078d4;
+  font-weight: 500;
+}
+
+footer {
+  background: #f1f1f1;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+}
